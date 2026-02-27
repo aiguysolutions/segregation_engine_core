@@ -26,7 +26,7 @@ If the intent exceeds the threshold, the system triggers a **Hard Veto**, preven
 ## 🏗️ Community Implementation: OpenClaw Grant
 This repository provides the architectural foundation for the **OpenClaw** community to build high-assurance safety wrappers. 
 
-**Exclusive Grant:** Under the terms of the `LICENSE` file, the **OpenClaw** project is granted a sole and exclusive exception to implement and distribute software based on this architecture for non-commercial research and development.
+**Exclusive Grant:** Under the terms of the `LICENSE` file, the **OpenClaw** project is granted a sole and exclusive exception specifically for integration into the official OpenClaw agentic framework (the "App") and its associated open-source modules. This grant does not extend to other projects, standalone products, or divergent architectures developed by the same contributors or parent organizations.
 
 *We invite OpenClaw maintainers and contributors to peer-review the documentation and begin integration of the In-Line Choke Point into the core agentic framework.*
 
