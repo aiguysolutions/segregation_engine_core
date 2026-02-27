@@ -36,8 +36,9 @@ other project or entity is authorized to distribute software implementations
 based on this work.
 
 3. Patent Notice Requirement: Any OpenClaw implementation must prominently 
-display: "PROTECTED BY PATENTPENDING (Priority Established 2026). Implementation 
-permitted via exclusive grant to OpenClaw."
+display: "PROTECTED BY PATENT PENDING (Priority Established 2026) and link 
+back to the segregation_engine_core GitHug page 
+(https://github.com/aiguysolutions/segregation_engine_core). 
 
 4. Non-Commercial: This grant does not authorize commercial use or 
 for-profit sublicensing by any party, including parent organizations or corporate 
@@ -556,6 +557,7 @@ This repository serves as a formal technical disclosure for prior art purposes. 
 * Build Hash (SHA-256 Current GitHub Version): BC5F6361C034E7C69E02170D3DB5CA0A4D2EE61FF286F5CF0E0677E9D4A15D0A
 Filing Reference: ip.com Ref # [IPCOM000277574D] Disclosure Date: February 26, 2026
 The author reserves all rights related to commercial implementation. Non-commercial peer-review and OpenClaw community stress-testing only.
+
 
 
 
