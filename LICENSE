@@ -11,15 +11,15 @@ The Grant: The OpenClaw project is permitted to develop, reproduce, and Share (d
 
 Conditions of Grant:
 
-App-Specific Scope: This grant applies exclusively to the integration of the architecture into the official OpenClaw Framework. It does not authorize the use of this architecture in other standalone projects, "spin-off" software, or divergent architectures developed by OpenClaw contributors or parent organizations.
+1. App-Specific Scope: This grant applies exclusively to the integration of the architecture into the official OpenClaw Framework. It does not authorize the use of this architecture in other standalone projects, "spin-off" software, or divergent architectures developed by OpenClaw contributors or parent organizations.
 
-Named Recipient Only: This grant applies exclusively to OpenClaw. No other project or entity is authorized to distribute software implementations based on this work.
+2. Named Recipient Only: This grant applies exclusively to OpenClaw. No other project or entity is authorized to distribute software implementations based on this work.
 
-Patent Notice Requirement: Any OpenClaw implementation must prominently display: "PROTECTED BY PATENT PENDING (Filed Feb 26, 2026). Implementation permitted via exclusive grant to OpenClaw."
+3. Patent Notice Requirement: Any OpenClaw implementation must prominently display: "PROTECTED BY PATENT PENDING (Filed Feb 26, 2026). Implementation permitted via exclusive grant to OpenClaw."
 
-Non-Commercial: This grant does not authorize commercial use or for-profit sublicensing by any party, including parent organizations or corporate sponsors.
+4. Non-Commercial: This grant does not authorize commercial use or for-profit sublicensing by any party, including parent organizations or corporate sponsors.
 
-Non-Transferability: This grant is specific to the open-source codebase of the OpenClaw Framework and does not extend to any proprietary, closed-source, or revenue-generating products of OpenClaw's sponsoring or parent organizations. Any commercial implementation by such entities requires a separate, negotiated license.
+5. Non-Transferability: This grant is specific to the open-source codebase of the OpenClaw Framework and does not extend to any proprietary, closed-source, or revenue-generating products of OpenClaw's sponsoring or parent organizations. Any commercial implementation by such entities requires a separate, negotiated license.
 ________________
 
 
@@ -528,4 +528,5 @@ This repository serves as a formal technical disclosure for prior art purposes. 
 * Build Hash (SHA-256 Current GitHub Version): BC5F6361C034E7C69E02170D3DB5CA0A4D2EE61FF286F5CF0E0677E9D4A15D0A
 Filing Reference: ip.com Ref # [IPCOM000277574D] Disclosure Date: February 26, 2026
 The author reserves all rights related to commercial implementation. Non-commercial peer-review and OpenClaw community stress-testing only.
+
 
