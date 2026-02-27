@@ -79,7 +79,7 @@ The Segregation Engine is domain-agnostic. Expand the sections below to view how
 ## 📄 Documentation & IP Status
 The full technical white papers are available in the repository.
 
-* **[Download Full Technical White Paper (PDF)](White_Papers_-_Segregation_Engine_-_Feb_26th_2026.pdf)**
+* **[Download Full Technical White Paper (PDF)](Segregation-Engine-Architecture-And-Implementations.pdf)**
 * **[View Project License & Technical Verification](LICENSE)**
 
 * **Status:** Patent Pending (Priority Established February 2026)
