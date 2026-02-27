@@ -35,6 +35,9 @@ This repository provides the architectural foundation for the **OpenClaw** commu
 ## 📄 Documentation & IP Status
 The full technical white papers (including embodiments for Robotics, Gaming, Medical, and FinTech) are available in the repository.
 
+* **[Download Full Technical White Paper (PDF)](Segregation-Engine-Architecture-And-Implementations.pdf)**
+* **[View Project License & Technical Verification](LICENSE)**
+
 * **Status:** Patent Pending (Filed Jan 22nd, 2026)
 * **License:** CC BY-NC-ND 4.0 (Non-Commercial / No-Derivatives)
 * **Verification:** See the `LICENSE` file for the **Technical Verification Anchor** (ip.com Ref #IPCOM000277574D and SHA-256 Build Hashes).
