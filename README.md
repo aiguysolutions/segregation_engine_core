@@ -7,10 +7,12 @@ Arresting and remediating hallucinated AI intent in real-time—from NPC logic a
 Traditional AI guardrails often run in parallel or post-inference, leading to a "race condition" where an agent may execute a hallucinated or non-compliant action before the safety check finishes. In robotics, gaming, and high-assurance systems, this is a catastrophic failure point.
 
 ## 🛠️ The Solution: In-Line Intent Segregation
-The **Segregation Engine** subordinates probabilistic AI substrates to a deterministic operational path. By forcing all semantic intent through a mandatory physical and logical choke point, the system ensures that no signal reaches a UI, API, or hardware actuator unless it passes the **Epsilon-Stochastic Gate**.
+The **Segregation Engine** is a universal orchestration layer that physically and logically decouples Semantic Intent (the agent's "voice" and strategy) from Operational State (the ground truth, system permissions, and execution logic). By forcing all semantic intent through a mandatory physical and logical choke point, the system ensures that no signal reaches a UI, API, or hardware actuator unless it passes the **Epsilon-Stochastic Gate**.
 
+![The Segregation Architecture Diagram](images/Architecture_Diagram.png)
+*(The structural isolation of the generative substrate and the mandatory authorization bottleneck)*
 
-### Core Logic: The Metrological Gate
+### Core Logic: The Metrological Gate & Zero-Trust Egress
 Proposed intent is validated against a strict variance threshold:
 
 $$\sigma^2 \le \epsilon$$
@@ -18,7 +20,10 @@ $$\sigma^2 \le \epsilon$$
 * **$\sigma^2$**: The calculated semantic variance (uncertainty) of the proposed intent.
 * **$\epsilon$**: The user-defined epsilon (tolerance) for a specific operational domain.
 
-If the intent exceeds the threshold, the system triggers a **Hard Veto**, preventing execution and initiating a recursive remediation loop.
+If the intent exceeds the threshold, the system triggers a **Hard Veto**, preventing execution and initiating a recursive remediation loop. External APIs and actuators only receive commands that carry a **Cryptographic Authorization Signature** minted by the deterministic path.
+
+![Recursive Safety Loop](images/Simplified_Recursive_Loop_Diagram.png)
+*(The Recursive Safety Loop utilizing Semantic Translation to coach the agent back to compliance)*
 
 ---
 
@@ -29,18 +34,53 @@ This repository provides the architectural foundation for the **OpenClaw** commu
 * **App Specific:** This grant applies only to the core OpenClaw application and its direct integration modules.
 * **Non-Divergent:** It does not authorize the use of this architecture in other standalone projects or "spin-off" software developed by OpenClaw contributors.
 * **Non-Commercial:** All implementations must remain non-commercial in accordance with the `LICENSE`.
-* 
+
 *We invite OpenClaw maintainers and contributors to peer-review the documentation and begin integration of the In-Line Choke Point into the core agentic framework.*
 
 ---
 
-## 📄 Documentation & IP Status
-The full technical white papers (including embodiments for Robotics, Gaming, Medical, and FinTech) are available in the repository.
+## 🗂️ Multi-Domain Implementations
+The Segregation Engine is domain-agnostic. Expand the sections below to view how the deterministic interlock operates across various high-assurance industries.
 
-* **[Download Full Technical White Paper (PDF)](Segregation-Engine-Architecture-And-Implementations.pdf)**
+<details>
+  <summary><b>🎮 View NPC Protocol Diagram</b></summary>
+  <img src="images/NPC_Protocol_Diagram.png" alt="NPC Protocol Diagram">
+  <p><i>Ensuring conversational AI adheres strictly to established lore and game state parameters without hallucinating facts.</i></p>
+</details>
+
+<details>
+  <summary><b>⚙️ View Kinematic Protocol Diagram</b></summary>
+  <img src="images/Kinematic_Protocol_Diagram.png" alt="Kinematic Protocol Diagram">
+  <p><i>Governing robotic actuation and spatial movement to prevent physical collisions resulting from probabilistic drift.</i></p>
+</details>
+
+<details>
+  <summary><b>🏥 View Clinical Protocol Diagram</b></summary>
+  <img src="images/Clinical_Protocol_Diagram.png" alt="Clinical Protocol Diagram">
+  <p><i>Validating diagnostic hypotheses and dosing recommendations against immutable medical databases.</i></p>
+</details>
+
+<details>
+  <summary><b>🏦 View FinTech Protocol Diagram</b></summary>
+  <img src="images/FinTech_Protocol_Diagram.png" alt="FinTech Protocol Diagram">
+  <p><i>Securing autonomous financial transactions and preventing hallucinated fiscal data from entering ledgers.</i></p>
+</details>
+
+<details>
+  <summary><b>👤 View Digital Twin Protocol Diagram</b></summary>
+  <img src="images/Digital_Twin_Protocol_Diagram.png" alt="Digital Twin Protocol Diagram">
+  <p><i>Anchoring generative personas to sovereign factual identities to prevent context drift in digital avatars.</i></p>
+</details>
+
+---
+
+## 📄 Documentation & IP Status
+The full technical white papers are available in the repository.
+
+* **[Download Full Technical White Paper (PDF)](White_Papers_-_Segregation_Engine_-_Feb_26th_2026.pdf)**
 * **[View Project License & Technical Verification](LICENSE)**
 
-* **Status:** Patent Pending (Filed Jan 22nd, 2026)
+* **Status:** Patent Pending (Priority Established February 2026)
 * **License:** CC BY-NC-ND 4.0 (Non-Commercial / No-Derivatives)
 * **Verification:** See the `LICENSE` file for the **Technical Verification Anchor** (ip.com Ref #IPCOM000277574D and SHA-256 Build Hashes).
 
