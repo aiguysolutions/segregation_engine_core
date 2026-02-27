@@ -30,7 +30,7 @@ If the intent exceeds the threshold, the system triggers a **Hard Veto**, preven
 ## 🏗️ Community Implementation: OpenClaw Grant
 This repository provides the architectural foundation for the **OpenClaw** community to build high-assurance safety wrappers. 
 
-**Exclusive Grant:** Under the terms of the **[LICENSE](./LICENSE)** file, the **OpenClaw** project is granted a sole and exclusive exception to implement and distribute software based on this architecture **strictly and exclusively for integration into the official OpenClaw agentic framework.** **Conditions of Scope:**
+**Non-Exclusive Grant:** Under the terms of the **[LICENSE](./LICENSE)** file, the **OpenClaw** project is granted a non-exclusive exception to implement and distribute software based on this architecture **strictly and exclusively for integration into the official OpenClaw agentic framework.** **Conditions of Scope:**
 1. **App-Specific Scope:** This grant applies exclusively to the integration of the architecture into the official **OpenClaw Framework**. It does not authorize the use of this architecture in other standalone projects, "spin-off" software, or divergent architectures developed by OpenClaw contributors or parent organizations.
 2. **Named Recipient Only:** This grant applies exclusively to OpenClaw. No other project or entity is authorized to distribute software implementations based on this work.
 3. **Patent Notice Requirement:** Any OpenClaw implementation must prominently display: *"PROTECTED BY PATENT PENDING (Priority Established 2026) Implementation permitted via exclusive grant to OpenClaw." and link back to the segregation_engine_core GitHug page (https://github.com/aiguysolutions/segregation_engine_core). *
