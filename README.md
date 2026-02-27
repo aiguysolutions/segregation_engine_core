@@ -30,10 +30,12 @@ If the intent exceeds the threshold, the system triggers a **Hard Veto**, preven
 ## 🏗️ Community Implementation: OpenClaw Grant
 This repository provides the architectural foundation for the **OpenClaw** community to build high-assurance safety wrappers. 
 
-**Exclusive Grant:** Under the terms of the `LICENSE` file, the **OpenClaw** project is granted a sole and exclusive exception to implement and distribute software based on this architecture **strictly and exclusively for integration into the official OpenClaw agentic framework.** **Conditions of Scope:**
-* **App Specific:** This grant applies only to the core OpenClaw application and its direct integration modules.
-* **Non-Divergent:** It does not authorize the use of this architecture in other standalone projects or "spin-off" software developed by OpenClaw contributors.
-* **Non-Commercial:** All implementations must remain non-commercial in accordance with the `LICENSE`.
+**Exclusive Grant:** Under the terms of the **[LICENSE](./LICENSE)** file, the **OpenClaw** project is granted a sole and exclusive exception to implement and distribute software based on this architecture **strictly and exclusively for integration into the official OpenClaw agentic framework.** **Conditions of Scope:**
+1. **App-Specific Scope:** This grant applies exclusively to the integration of the architecture into the official **OpenClaw Framework**. It does not authorize the use of this architecture in other standalone projects, "spin-off" software, or divergent architectures developed by OpenClaw contributors or parent organizations.
+2. **Named Recipient Only:** This grant applies exclusively to OpenClaw. No other project or entity is authorized to distribute software implementations based on this work.
+3. **Patent Notice Requirement:** Any OpenClaw implementation must prominently display: *"PROTECTED BY PATENT PENDING (Priority Established 2026) and link back to the segregation_engine_core GitHug page (https://github.com/aiguysolutions/segregation_engine_core). Implementation permitted via exclusive grant to OpenClaw."*
+4. **Non-Commercial:** This grant does not authorize commercial use or for-profit sublicensing by any party, including parent organizations or corporate sponsors.
+5. **Non-Transferability:** This grant is specific to the open-source codebase of the OpenClaw Framework and does not extend to any proprietary, closed-source, or revenue-generating products of OpenClaw's sponsoring or parent organizations. Any commercial implementation by such entities requires a separate, negotiated license.
 
 *We invite OpenClaw maintainers and contributors to peer-review the documentation and begin integration of the In-Line Choke Point into the core agentic framework.*
 
@@ -82,6 +84,6 @@ The full technical white papers are available in the repository.
 
 * **Status:** Patent Pending (Priority Established February 2026)
 * **License:** CC BY-NC-ND 4.0 (Non-Commercial / No-Derivatives)
-* **Verification:** See the `LICENSE` file for the **Technical Verification Anchor** (ip.com Ref #IPCOM000277574D and SHA-256 Build Hashes).
+* **Verification:** See the **[LICENSE](./LICENSE)** file for the **Technical Verification Anchor** (ip.com Ref #IPCOM000277574D and SHA-256 Build Hashes).
 
 **Commercial Licensing:** For-profit utilization or proprietary integration is strictly prohibited without a separate commercial license. Inquiries can be made via the repository **Issues** tab.
