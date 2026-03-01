@@ -9,6 +9,13 @@ Traditional AI guardrails often run in parallel or post-inference, leading to a 
 ## 🛠️ The Solution: In-Line Intent Segregation
 The **Segregation Engine** is a universal orchestration layer that physically and logically decouples Semantic Intent (the agent's "voice" and strategy) from Operational State (the ground truth, system permissions, and execution logic). By forcing all semantic intent through a mandatory physical and logical choke point, the system ensures that no signal reaches a UI, API, or hardware actuator unless it passes the **Epsilon-Stochastic Gate**.
 
+
+## Wrapper Architecture
+
+![The Segregation Wrapper Architecture Diagram](images/Wrapper_Architecture.png)
+
+
+## Engine Architecture
 ![The Segregation Architecture Diagram](images/Architecture_Diagram.png)
 *(The structural isolation of the generative substrate and the mandatory authorization bottleneck)*
 
